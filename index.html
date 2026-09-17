@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rizky Qiano Pratama | Personal Portfolio - Siswa RPL</title>
+  <meta name="description"
+    content="Portfolio personal Rizky Qiano Pratama, siswa kelas 11 Rekayasa Perangkat Lunak (RPL) di SMK Negeri Tembarak. Belajar coding, web development, dan teknologi.">
+  <meta name="keywords"
+    content="Rizky Qiano Pratama, Portfolio SMK, RPL SMK Negeri Tembarak, Siswa RPL, Web Developer Muda">
+  <meta name="author" content="Rizky Qiano Pratama">
+
+  <!-- Favicon Icon SVG -->
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='25' fill='%230284c7'/><text x='50%' y='55%' dominant-baseline='middle' text-anchor='middle' font-size='56' font-family='sans-serif' font-weight='bold' fill='white'>Q</text></svg>">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Decorative 2D Background Blobs -->
+  <div class="bg-shape shape-blob-1" aria-hidden="true"></div>
+  <div class="bg-shape shape-blob-2" aria-hidden="true"></div>
+
+  <!-- ================= HEADER & NAVBAR ================= -->
+  <header class="navbar">
+    <div class="container nav-wrapper">
+      <a href="#home" class="nav-brand" aria-label="Beranda Rizky Qiano Pratama">
+        <span class="brand-badge">Q</span>
+        <span>Qiano<span class="brand-dot">.</span></span>
+      </a>
+
+      <!-- Navigation Links -->
+      <nav class="nav-menu" id="navMenu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#vibes" class="nav-link">My Vibes</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- CTA & Mobile Toggle -->
+      <div class="nav-actions">
+        <a href="#contact" class="nav-cta">
+          <span>Kirim Pesan</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+            stroke-linecap="round" stroke-linejoin="round">
+            <line x1="22" y1="2" x2="11" y2="13"></line>
+            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+          </svg>
+        </a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Buka Menu Navigasi" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================= HERO SECTION ================= -->
+    <section class="hero-section" id="home">
+      <div class="container">
+        <div class="hero-grid">
+
+          <!-- Hero Text Column -->
+          <div class="hero-content reveal">
+            <div class="hero-badge-wrap">
+              <span class="hero-badge">
+                <span class="pulse-dot"></span>
+                <span>XI RPL • SMK Negeri Tembarak</span>
+              </span>
+            </div>
+
+            <h1 class="hero-title">
+              Hi, I'm <span class="highlight">Rizky Qiano</span> Pratama <span class="wave-hand">👋</span>
+            </h1>
+
+            <p class="hero-subtitle">
+              Siswa RPL yang lagi belajar, ngoding, dan mengejar cita-cita di dunia teknologi.
+            </p>
+
+            <div class="hero-buttons">
+              <a href="#about" class="btn btn-primary">
+                <span>Kenalan Yuk</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M7 13l5 5 5-5M7 6l5 5 5-5" />
+                </svg>
+              </a>
+              <a href="#contact" class="btn btn-secondary">
+                <span>Hubungi Saya</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </a>
+            </div>
+
+            <!-- Mini Quick Highlights -->
+            <div class="hero-stats-row">
+              <div class="hero-stat-item">
+                <div class="hero-stat-icon">💻</div>
+                <div class="hero-stat-info">
+                  <strong>Web Dev & Code</strong>
+                  <span>Fokus Belajar Saat Ini</span>
+                </div>
+              </div>
+              <div class="hero-stat-item">
+                <div class="hero-stat-icon">📍</div>
+                <div class="hero-stat-info">
+                  <strong>Temanggung</strong>
+                  <span>Jawa Tengah, Indonesia</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero 2D Illustration Column -->
+          <div class="hero-visual-wrapper reveal">
+            <div class="hero-visual-container">
+              <!-- Backdrop Blob -->
+              <div class="hero-backdrop-circle"></div>
+
+              <!-- 2D Vector Illustration: Coder Boy with Laptop & Tech Floating Elements -->
+              <svg class="hero-svg-main" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg" role="img"
+                aria-label="Ilustrasi 2D Rizky Qiano Pratama sedang ngoding di depan laptop">
+                <!-- Soft Desk Base -->
+                <rect x="70" y="380" width="360" height="16" rx="8" fill="#bae6fd" />
+                <rect x="110" y="396" width="16" height="60" rx="4" fill="#93c5fd" />
+                <rect x="374" y="396" width="16" height="60" rx="4" fill="#93c5fd" />
+
+                <!-- Potted Plant on Desk -->
+                <path d="M105 380 L125 380 L120 355 L110 355 Z" fill="#0284c7" opacity="0.8" />
+                <ellipse cx="115" cy="342" rx="14" ry="18" fill="#38bdf8" />
+                <ellipse cx="124" cy="334" rx="10" ry="12" fill="#7dd3fc" />
+
+                <!-- Coffee Mug -->
+                <rect x="350" y="360" width="22" height="20" rx="4" fill="#ffffff" stroke="#38bdf8" stroke-width="3" />
+                <path d="M372 365 C378 365 378 375 372 375" fill="none" stroke="#38bdf8" stroke-width="3" />
+                <path d="M356 354 Q358 348 356 344" stroke="#7dd3fc" stroke-width="2" stroke-linecap="round" />
+                <path d="M362 354 Q364 348 362 344" stroke="#7dd3fc" stroke-width="2" stroke-linecap="round" />
+
+                <!-- Character Body -->
+                <!-- Hair / Head -->
+                <circle cx="250" cy="180" r="44" fill="#fed7aa" /> <!-- Face -->
+                <path
+                  d="M206 172 C210 135 240 125 275 130 C298 135 300 160 294 175 C285 160 270 152 245 152 C225 152 215 160 206 172 Z"
+                  fill="#0f172a" /> <!-- Stylish 2D Hair -->
+                <ellipse cx="236" cy="178" rx="3.5" ry="4.5" fill="#0f172a" /> <!-- Eye L -->
+                <ellipse cx="264" cy="178" rx="3.5" ry="4.5" fill="#0f172a" /> <!-- Eye R -->
+                <path d="M244 195 Q250 201 256 195" stroke="#ea580c" stroke-width="2.5" stroke-linecap="round" />
+                <!-- Smile -->
+                <!-- Glasses -->
+                <rect x="226" y="171" width="20" height="15" rx="4" fill="none" stroke="#0284c7" stroke-width="3" />
+                <rect x="254" y="171" width="20" height="15" rx="4" fill="none" stroke="#0284c7" stroke-width="3" />
+                <line x1="246" y1="178" x2="254" y2="178" stroke="#0284c7" stroke-width="3" />
+
+                <!-- Neck -->
+                <rect x="242" y="222" width="16" height="18" fill="#fdba74" />
+
+                <!-- Blue Hoodie / Shirt -->
+                <path
+                  d="M195 240 C210 232 290 232 305 240 L320 330 C320 340 310 345 295 345 L205 345 C190 345 180 340 180 330 Z"
+                  fill="#0284c7" />
+                <path d="M232 240 L250 275 L268 240" fill="#e0f2fe" />
+
+                <!-- Arms Typing on Laptop -->
+                <path d="M190 260 L230 335 L260 335" stroke="#0369a1" stroke-width="22" stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <path d="M310 260 L270 335 L240 335" stroke="#0284c7" stroke-width="22" stroke-linecap="round"
+                  stroke-linejoin="round" />
+
+                <!-- Hands -->
+                <circle cx="242" cy="336" r="10" fill="#fed7aa" />
+                <circle cx="258" cy="336" r="10" fill="#fed7aa" />
+
+                <!-- Laptop Base & Screen -->
+                <polygon points="175,380 325,380 310,345 190,345" fill="#e2e8f0" />
+                <rect x="185" y="270" width="130" height="80" rx="8" fill="#0f172a" stroke="#94a3b8" stroke-width="3" />
+                <rect x="192" y="277" width="116" height="66" rx="4" fill="#0284c7" opacity="0.95" />
+                <!-- Screen Code Lines -->
+                <line x1="202" y1="288" x2="230" y2="288" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" />
+                <line x1="202" y1="298" x2="270" y2="298" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
+                <line x1="212" y1="308" x2="250" y2="308" stroke="#a7f3d0" stroke-width="3" stroke-linecap="round" />
+                <line x1="212" y1="318" x2="280" y2="318" stroke="#fde047" stroke-width="3" stroke-linecap="round" />
+                <line x1="202" y1="328" x2="240" y2="328" stroke="#7dd3fc" stroke-width="3" stroke-linecap="round" />
+              </svg>
+
+              <!-- Floating 2D Badges & Stickers -->
+              <div class="floating-sticker sticker-code-1">
+                <span>&lt;/&gt;</span>
+                <span>clean_code.js</span>
+              </div>
+
+              <div class="floating-sticker sticker-code-2">
+                <span>{ }</span>
+                <span>developer_mode: ON</span>
+              </div>
+
+              <div class="floating-sticker sticker-badge-3">
+                <span>⚡</span>
+                <span>Learning RPL</span>
+              </div>
+
+              <!-- Sparkles -->
+              <span class="sticker-sparkle sparkle-1" aria-hidden="true">✦</span>
+              <span class="sticker-sparkle sparkle-2" aria-hidden="true">★</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ME SECTION ================= -->
+    <section class="about-section" id="about">
+      <div class="container">
+
+        <div class="section-header reveal">
+          <span class="section-tag">💡 Personal Bio</span>
+          <h2 class="section-title">Tentang <span class="highlight">Saya</span></h2>
+          <p class="section-subtitle">Mengenal lebih dekat siapa aku, apa kesibukanku, dan bagaimana caraku menjalani
+            hari-hari.</p>
+        </div>
+
+        <div class="about-card reveal">
+          <div class="about-grid">
+
+            <!-- Bio Paragraphs -->
+            <div class="about-text-content">
+              <p>
+                <strong>Haloo! Aku Rizky Qiano Pratama</strong>, siswa kelas 11 jurusan <strong>Rekayasa Perangkat Lunak
+                  (RPL)</strong> di <strong>SMK Negeri Tembarak</strong>.
+              </p>
+              <p>
+                Sekarang aku lagi berada di fase belajar banyak hal tentang dunia teknologi, terutama pemrograman dan
+                pengembangan website. Di luar belajar dan ngoding, aku juga punya beberapa kebiasaan yang cukup
+                relatable: <strong>ngegame, suka makan, dan tentunya... rebahan 😭</strong>.
+              </p>
+              <p>
+                Tapi tenang, kalau udah ada tugas atau project, <strong>mode serius juga bisa aktif kok wkwk</strong>.
+                Aku percaya proses belajar terbaik adalah terus mencoba hal baru dan pantang menyerah meski error
+                bertebaran di mana-mana.
+              </p>
+
+              <!-- Location Pill -->
+              <div class="about-location-pill">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" color="#0284c7">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <span>Desa Tepung Sari, Walitelon Selatan, RT 03/RW 01</span>
+              </div>
+            </div>
+
+            <!-- Mini Badges Cloud & Fun Box -->
+            <div class="about-badges-wrapper">
+              <h3 class="about-badges-title">Minat & Kebiasaan Sehari-hari:</h3>
+              <div class="badges-cloud">
+                <div class="badge-item">
+                  <span>🎮</span>
+                  <span>Gaming</span>
+                </div>
+                <div class="badge-item">
+                  <span>🍜</span>
+                  <span>Food Lover</span>
+                </div>
+                <div class="badge-item">
+                  <span>🛌</span>
+                  <span>Rebahan Enjoyer</span>
+                </div>
+                <div class="badge-item">
+                  <span>💻</span>
+                  <span>Coding</span>
+                </div>
+                <div class="badge-item">
+                  <span>🚀</span>
+                  <span>Learning</span>
+                </div>
+              </div>
+
+              <!-- Relatable Fun Fact Card -->
+              <div class="about-fun-fact">
+                <div class="fun-fact-icon">☕</div>
+                <div class="fun-fact-text">
+                  <strong>Fun Fact:</strong><br>
+                  Bagi anak RPL kelas 11, tidak ada kepuasan yang mengalahkan momen ketika kode yang error 2 jam
+                  akhirnya jalan tanpa bug! (atau minimal layarnya gak merah lagi 😂).
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= EDUCATION SECTION ================= -->
+    <section class="education-section" id="education">
+      <div class="container">
+
+        <div class="section-header reveal">
+          <span class="section-tag">🎓 Pendidikan</span>
+          <h2 class="section-title">Tempat Aku <span class="highlight">Menimba Ilmu</span></h2>
+          <p class="section-subtitle">Perjalanan akademik dan lingkungan tempatku mendalami dunia software engineering.
+          </p>
+        </div>
+
+        <div class="education-container reveal">
+          <div class="edu-card">
+
+            <div class="edu-header-row">
+              <div class="edu-school-meta">
+                <div class="edu-school-icon" aria-hidden="true">
+                  🏫
+                </div>
+                <div>
+                  <h3 class="edu-school-title">SMK Negeri Tembarak</h3>
+                  <div class="edu-school-sub">Rekayasa Perangkat Lunak (RPL)</div>
+                </div>
+              </div>
+              <div class="edu-badge-class">
+                Kelas XI
+              </div>
+            </div>
+
+            <p class="edu-desc">
+              Sedang mempelajari dasar-dasar pemrograman, pengembangan website, dan berbagai hal yang berkaitan dengan
+              teknologi perangkat lunak. Di jurusan ini, kami diajarkan berpikir logis, memecahkan masalah dengan kode,
+              serta membangun antarmuka web yang rapi dan interaktif.
+            </p>
+
+            <div class="edu-focus-grid">
+              <div class="edu-focus-pill">
+                <span class="focus-bullet"></span>
+                <span class="focus-text">Dasar Logika & Algoritma</span>
+              </div>
+              <div class="edu-focus-pill">
+                <span class="focus-bullet"></span>
+                <span class="focus-text">Web Frontend & Interaktivitas</span>
+              </div>
+              <div class="edu-focus-pill">
+                <span class="focus-bullet"></span>
+                <span class="focus-text">Dasar Rekayasa Perangkat Lunak</span>
+              </div>
+              <div class="edu-focus-pill">
+                <span class="focus-bullet"></span>
+                <span class="focus-text">Kolaborasi & Version Control (Git)</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= SKILLS SECTION ================= -->
+    <section class="skills-section" id="skills">
+      <div class="container">
+
+        <div class="section-header reveal">
+          <span class="section-tag">🛠️ Kemampuan</span>
+          <h2 class="section-title">Yang Lagi <span class="highlight">Aku Pelajari</span></h2>
+          <p class="section-subtitle">Bukan expert, tapi selalu antusias buat belajar dan eksplorasi hal-hal baru di
+            pemrograman.</p>
+        </div>
+
+        <div class="skills-grid">
+
+          <!-- Skill 1: HTML -->
+          <div class="skill-card reveal">
+            <div class="skill-top">
+              <div class="skill-icon-wrap" style="color: #ea580c; background: #ffedd5;">
+                🌐
+              </div>
+              <span class="skill-status-tag">Fondasi Web</span>
+            </div>
+            <h3 class="skill-card-name">HTML</h3>
+            <p class="skill-card-desc">Membuat struktur halaman web semantik, rapi, dan mudah diakses.</p>
+            <div class="skill-indicator-bar">
+              <div class="skill-indicator-fill" style="width: 75%;"></div>
+            </div>
+          </div>
+
+          <!-- Skill 2: CSS -->
+          <div class="skill-card reveal">
+            <div class="skill-top">
+              <div class="skill-icon-wrap" style="color: #0284c7; background: #e0f2fe;">
+                🎨
+              </div>
+              <span class="skill-status-tag">Styling & Tata Letak</span>
+            </div>
+            <h3 class="skill-card-name">CSS</h3>
+            <p class="skill-card-desc">Mengatur tampilan, warna, flexbox, grid, serta animasi modern yang responsif.</p>
+            <div class="skill-indicator-bar">
+              <div class="skill-indicator-fill" style="width: 70%;"></div>
+            </div>
+          </div>
+
+          <!-- Skill 3: JavaScript -->
+          <div class="skill-card reveal">
+            <div class="skill-top">
+              <div class="skill-icon-wrap" style="color: #d97706; background: #fef3c7;">
+                ⚡
+              </div>
+              <span class="skill-status-tag">Interaktivitas</span>
+            </div>
+            <h3 class="skill-card-name">JavaScript</h3>
+            <p class="skill-card-desc">Menghidupkan halaman web dengan logika, manipulasi DOM, dan event interaktif.</p>
+            <div class="skill-indicator-bar">
+              <div class="skill-indicator-fill" style="width: 60%;"></div>
+            </div>
+          </div>
+
+          <!-- Skill 4: UI/UX dasar -->
+          <div class="skill-card reveal">
+            <div class="skill-top">
+              <div class="skill-icon-wrap" style="color: #7c3aed; background: #ede9fe;">
+                ✨
+              </div>
+              <span class="skill-status-tag">Desain Visual</span>
+            </div>
+            <h3 class="skill-card-name">UI/UX Dasar</h3>
+            <p class="skill-card-desc">Memahami hierarki visual, pemilihan warna harmonis, dan kenyamanan pengguna.</p>
+            <div class="skill-indicator-bar">
+              <div class="skill-indicator-fill" style="width: 65%;"></div>
+            </div>
+          </div>
+
+          <!-- Skill 5: Web Development -->
+          <div class="skill-card reveal">
+            <div class="skill-top">
+              <div class="skill-icon-wrap" style="color: #0d9488; background: #ccfbf1;">
+                💻
+              </div>
+              <span class="skill-status-tag">Praktik Projek</span>
+            </div>
+            <h3 class="skill-card-name">Web Development</h3>
+            <p class="skill-card-desc">Menggabungkan struktur, estetika, dan fungsionalitas menjadi website utuh.</p>
+            <div class="skill-indicator-bar">
+              <div class="skill-indicator-fill" style="width: 65%;"></div>
+            </div>
+          </div>
+
+          <!-- Skill 6: Problem Solving -->
+          <div class="skill-card reveal">
+            <div class="skill-top">
+              <div class="skill-icon-wrap" style="color: #e11d48; background: #ffe4e6;">
+                🧩
+              </div>
+              <span class="skill-status-tag">Logika Berpikir</span>
+            </div>
+            <h3 class="skill-card-name">Problem Solving</h3>
+            <p class="skill-card-desc">Menganalisis error, mencari solusi logis, dan pantang menyerah saat debugging.
+            </p>
+            <div class="skill-indicator-bar">
+              <div class="skill-indicator-fill" style="width: 70%;"></div>
+            </div>
+          </div>
+
+          <!-- Skill 7: Git / GitHub -->
+          <div class="skill-card reveal">
+            <div class="skill-top">
+              <div class="skill-icon-wrap" style="color: #334155; background: #f1f5f9;">
+                🐙
+              </div>
+              <span class="skill-status-tag">Version Control</span>
+            </div>
+            <h3 class="skill-card-name">Git / GitHub</h3>
+            <p class="skill-card-desc">Menyimpan revisi kode projek, commit history, dan belajar alur kolaborasi tim.
+            </p>
+            <div class="skill-indicator-bar">
+              <div class="skill-indicator-fill" style="width: 55%;"></div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= MY VIBES SECTION ================= -->
+    <section class="vibes-section" id="vibes">
+      <div class="container">
+
+        <div class="section-header reveal">
+          <span class="section-tag">✨ Di Luar Ngoding</span>
+          <h2 class="section-title">My <span class="highlight">Vibes</span></h2>
+          <p class="section-subtitle">Keseimbangan antara ngoding, hiburan, dan mengisi ulang baterai energi.</p>
+        </div>
+
+        <div class="vibes-grid">
+
+          <!-- Vibe 1: Gaming -->
+          <div class="vibe-card reveal">
+            <div class="vibe-icon-container">
+              🎮
+            </div>
+            <h3 class="vibe-title">Gaming</h3>
+            <p class="vibe-quote">
+              "Kalau lagi senggang, biasanya waktuku bisa tersedot buat ngegame. Katanya cuma satu match, tau-tau udah
+              malam 😭."
+            </p>
+            <span class="vibe-tag">#OneMoreMatch #GamerMoment</span>
+          </div>
+
+          <!-- Vibe 2: Makan -->
+          <div class="vibe-card reveal">
+            <div class="vibe-icon-container">
+              🍜
+            </div>
+            <h3 class="vibe-title">Makan</h3>
+            <p class="vibe-quote">
+              "Ngoding boleh, tapi energi tetap harus diisi. Makan adalah bagian penting dari kehidupan."
+            </p>
+            <span class="vibe-tag">#EnergyRefuel #FoodLover</span>
+          </div>
+
+          <!-- Vibe 3: Rebahan -->
+          <div class="vibe-card reveal">
+            <div class="vibe-icon-container">
+              🛌
+            </div>
+            <h3 class="vibe-title">Rebahan</h3>
+            <p class="vibe-quote">
+              "Skill pasif: rebahan. Kadang bukan malas, cuma lagi loading kehidupan wkwk."
+            </p>
+            <span class="vibe-tag">#SkillPasif #LoadingKehidupan</span>
+          </div>
+
+          <!-- Vibe 4: Coding -->
+          <div class="vibe-card reveal">
+            <div class="vibe-icon-container">
+              💻
+            </div>
+            <h3 class="vibe-title">Coding</h3>
+            <p class="vibe-quote">
+              "Pelan-pelan belajar coding dan mencoba membuat sesuatu yang bisa benar-benar digunakan."
+            </p>
+            <span class="vibe-tag">#StepByStep #NgodingSantai</span>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= MY PROJECTS SECTION ================= -->
+    <section class="projects-section" id="projects">
+      <div class="container">
+
+        <div class="section-header reveal">
+          <span class="section-tag">🚀 Show-case</span>
+          <h2 class="section-title">My <span class="highlight">Projects</span></h2>
+          <p class="section-subtitle">Ruang untuk memajang karya-karya dan tugas yang sedang atau akan aku kerjakan.</p>
+        </div>
+
+        <div class="project-note reveal">
+          Masih dalam proses ngumpulin project. Pelan-pelan yang penting jalan 🚀
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- Project 01 -->
+          <div class="project-card reveal">
+            <div class="project-banner">
+              <div class="project-banner-pattern"></div>
+              <span class="project-status-badge">In Progress</span>
+              <!-- 2D Mini Illustration -->
+              <svg class="project-banner-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="15" y="20" width="70" height="60" rx="10" fill="#ffffff" stroke="#38bdf8" stroke-width="4" />
+                <rect x="25" y="30" width="30" height="8" rx="4" fill="#0284c7" />
+                <rect x="25" y="44" width="50" height="6" rx="3" fill="#bae6fd" />
+                <rect x="25" y="54" width="40" height="6" rx="3" fill="#bae6fd" />
+                <circle cx="68" cy="34" r="5" fill="#38bdf8" />
+              </svg>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Project 01 — Coming Soon</h3>
+              <p class="project-desc">
+                Projek web pertama yang sedang dirancang untuk tugas praktik di SMK Negeri Tembarak. Menghubungkan tata
+                letak modern dengan fungsi interaktif.
+              </p>
+              <div class="project-action-row">
+                <button type="button" class="btn-project disabled">
+                  <span>View Project</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 02 -->
+          <div class="project-card reveal">
+            <div class="project-banner">
+              <div class="project-banner-pattern"></div>
+              <span class="project-status-badge">In Progress</span>
+              <!-- 2D Mini Illustration -->
+              <svg class="project-banner-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="15" y="20" width="70" height="60" rx="10" fill="#ffffff" stroke="#0284c7" stroke-width="4" />
+                <circle cx="35" cy="50" r="14" fill="#bae6fd" />
+                <path d="M55 42 H75" stroke="#38bdf8" stroke-width="4" stroke-linecap="round" />
+                <path d="M55 52 H70" stroke="#38bdf8" stroke-width="4" stroke-linecap="round" />
+                <path d="M55 62 H65" stroke="#38bdf8" stroke-width="4" stroke-linecap="round" />
+              </svg>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Project 02 — Coming Soon</h3>
+              <p class="project-desc">
+                Eksplorasi pembuatan aplikasi web sederhana menggunakan JavaScript interaktif untuk melatih logika
+                pemrograman dasar dan manipulasi data.
+              </p>
+              <div class="project-action-row">
+                <button type="button" class="btn-project disabled">
+                  <span>View Project</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 03 -->
+          <div class="project-card reveal">
+            <div class="project-banner">
+              <div class="project-banner-pattern"></div>
+              <span class="project-status-badge">In Progress</span>
+              <!-- 2D Mini Illustration -->
+              <svg class="project-banner-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="15" y="20" width="70" height="60" rx="10" fill="#ffffff" stroke="#06b6d4" stroke-width="4" />
+                <path d="M30 38 L42 50 L30 62" stroke="#0284c7" stroke-width="4" stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <line x1="48" y1="62" x2="68" y2="62" stroke="#38bdf8" stroke-width="4" stroke-linecap="round" />
+              </svg>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Project 03 — Coming Soon</h3>
+              <p class="project-desc">
+                Rencana portofolio mini projek atau tools utilitas kecil yang bisa mempermudah teman-teman sekelas dalam
+                mengerjakan tugas sekolah.
+              </p>
+              <div class="project-action-row">
+                <button type="button" class="btn-project disabled">
+                  <span>View Project</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= CONTACT SECTION ================= -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+
+        <div class="contact-card-main reveal">
+          <div class="contact-icon-large">
+            ✉️
+          </div>
+
+          <h2 class="contact-title">Let's Connect!</h2>
+
+          <p class="contact-desc">
+            Kalau mau kenalan, ngobrol soal coding, atau sekadar sharing tentang dunia teknologi, boleh banget mampir.
+            Pintuku selalu terbuka buat obrolan santai!
+          </p>
+
+          <!-- Email Copy Card -->
+          <div class="contact-email-box">
+            <span class="email-address-text">mazzqiano45@gmail.com</span>
+            <button class="copy-btn" id="copyEmailBtn" aria-label="Salin alamat email">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+              <span>Salin Email</span>
+            </button>
+          </div>
+
+          <div class="contact-btn-group">
+            <a href="mailto:mazzqiano45@gmail.com" class="btn btn-primary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+              <span>Send Email</span>
+            </a>
+          </div>
+
+          <div class="location-info-bar">
+            <span>📍</span>
+            <span>Desa Tepung Sari, Walitelon Selatan, RT 03/RW 01, Kec. Tembarak, Temanggung</span>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p class="footer-copy">© 2026 Rizky Qiano Pratama</p>
+      <p class="footer-quote">Built with curiosity, code, and a little bit of rebahan ☕💻</p>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" aria-label="Kembali ke atas" title="Kembali ke atas">
+    ↑
+  </button>
+
+  <!-- Interactive Feedback Toast -->
+  <div class="toast-msg" id="toastMsg" role="status" aria-live="polite"></div>
+
+  <!-- Main JavaScript File -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
